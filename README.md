@@ -75,26 +75,23 @@ LEFT ROTATE (T, x)
  7. p [x] ← y.
 
 ## INSERTION ALGORITHM:
-1.//The color of the inserted new node is Red
-2.color[key] <- Red
-3.while(key≠root and color (p[key]=Red))
-4.do if p[key]= left(p[p[key]])
-5.   Then y←right[p[p[key]]
-6.// If the parent of the new node is Red(if there is Grandparent instead
-7.root Node) Flip the color.
-8.   if color[y]← Red
-9.   then color(p[key])← Black
-10.      color(p[p[key]])← Red
-11.      key← p[p[key]]
-12.   else if key← right[p[key]]
-13.      then key← p[key]
-14.      //When parent of new node has the red color and its sibling is NULL
-15.   LeftRotate(root,key)
-16.   color(p[key]) ← Black
-17.   color(p[p[key]]) ← Red
-18.RotateRight(root,p[p[key]])
-19.else exchange then left and right elements to make it balance.
-20.color(root)← Black
-
+RB-INSERT (T, z)
+ 1. y ← nil [T]
+ 2. x ← root [T]
+ 3. while x ≠ NIL [T]
+ 4. do y ← x
+ 5. if key [z] < key [x]
+ 6. then x  ← left [x]
+ 7. else x ←  right [x]
+ 8. p [z] ← y
+ 9. if y = nil [T]
+ 10. then root [T] ← z
+ 11. else if key [z] < key [y]
+ 12. then left [y] ← z
+ 13. else right [y] ← z
+ 14. left [z] ← nil [T]
+ 15. right [z] ← nil [T]
+ 16. color [z] ← RED
+ 17. RB-INSERT-FIXUP (T, z)
 
 
