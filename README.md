@@ -44,5 +44,35 @@ In rotation operation, the positions of the nodes of a subtree are interchanged.
 2.Right Roation
 ![RB_Rotation](https://user-images.githubusercontent.com/112940949/203839934-28c59358-68db-4bc8-a9b6-db8f08648431.jpg)
 
+# ALGORITHMS:
+## LEFT ROTATE (T, x)
+ 1. y ← right [x]
+ 1. y ← right [x]
+ 2. right [x] ← left [y]
+ 3. p [left[y]] ← x
+ 4. p[y] ← p[x]
+ 5. If p[x] = nil [T]
+   then root [T] ← y
+    else if x = left [p[x]] 									
+      then left [p[x]] ← y
+    else right [p[x]] ← y
+ 6. left [y] ← x.
+ 7. p [x] ← y.
+
+## RIGHT ROTATE(T,x)
+LEFT ROTATE (T, x)
+ 1. y ← left [x]
+ 1. y ← left [x]
+ 2. left [x] ← right [y]
+ 3. p [right[y]] ← x
+ 4. p[y] ← p[x]
+ 5. If p[x] = nil [T]
+   then root [T] ← y
+    else if x = left [p[x]] 									
+      then left [p[x]] ← y
+    else right [p[x]] ← y
+ 6. right [y] ← x.
+ 7. p [x] ← y.
+
 
 
