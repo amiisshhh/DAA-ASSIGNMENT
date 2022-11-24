@@ -114,3 +114,13 @@ RB-DELETE (T, z)
  16. if color [y] = BLACK
  17. then RB-delete-FIXUP (T, x)
  18. return y
+
+# Applications of Red-Black Trees :
+To implement finite maps.
+Machine Learning K-mean clustering algorithm for reducing Time Complexity.
+To implement Standard Template Libraries (STL) in C++: multiset, map, multimap.
+MySQL also uses Red-Black Tree indexing to reduce the searching and insertion time.
+To implement Java packages: TreeMap and TreeSet.
+
+In Linux Kernel.
+
