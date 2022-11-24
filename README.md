@@ -33,7 +33,8 @@ The root of the tree is always black.
 There are no two adjacent red nodes (A red node cannot have a red parent or red child).
 Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
 All leaf nodes are black nodes.
-![IMG_20221124_223300](https://user-images.githubusercontent.com/112940949/203836907-0a0d4c27-579a-4e83-8d05-d908f5a7ee3d.jpg)
+![REDBLACK](https://user-images.githubusercontent.com/112940949/203837420-9a164ce7-ab15-4ac2-b7ab-bb673260b2b1.jpg)
+
 
 
 # Rotations in Red Black Trees :
