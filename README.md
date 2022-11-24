@@ -94,4 +94,23 @@ RB-INSERT (T, z)
  16. color [z] ← RED
  17. RB-INSERT-FIXUP (T, z)
 
-
+## DELETION ALGORITHM:
+RB-DELETE (T, z)
+ 1. if left [z] = nil [T] or right [z] = nil [T]
+ 2. then y ← z
+ 3. else y ← TREE-SUCCESSOR (z)
+ 4. if left [y] ≠ nil [T]
+ 5. then x ← left [y]
+ 6. else x ← right [y]
+ 7. p [x] ←  p [y]
+ 8. if p[y] = nil [T]
+ 9. then root [T]  ← x
+ 10. else if y = left [p[y]]
+ 11. then left [p[y]] ← x
+ 12. else right [p[y]] ← x
+ 13. if y≠ z
+ 14. then key [z] ← key [y]
+ 15. copy y's satellite data into z
+ 16. if color [y] = BLACK
+ 17. then RB-delete-FIXUP (T, x)
+ 18. return y
