@@ -116,11 +116,10 @@ RB-DELETE (T, z)
  18. return y
 
 # Applications of Red-Black Trees :
-To implement finite maps.
-Machine Learning K-mean clustering algorithm for reducing Time Complexity.
-To implement Standard Template Libraries (STL) in C++: multiset, map, multimap.
-MySQL also uses Red-Black Tree indexing to reduce the searching and insertion time.
-To implement Java packages: TreeMap and TreeSet.
-
-In Linux Kernel.
+1.To implement finite maps.
+2.Machine Learning K-mean clustering algorithm for reducing Time Complexity.
+3.To implement Standard Template Libraries (STL) in C++: multiset, map, multimap.
+4.MySQL also uses Red-Black Tree indexing to reduce the searching and insertion time.
+5.To implement Java packages: TreeMap and TreeSet.
+6.In Linux Kernel.
 
