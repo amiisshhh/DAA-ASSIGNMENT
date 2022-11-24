@@ -75,26 +75,26 @@ LEFT ROTATE (T, x)
  7. p [x] ← y.
 
 ## INSERTION ALGORITHM:
-//The color of the inserted new node is Red
-color[key] <- Red
-while(key≠root and color (p[key]=Red))
-do if p[key]= left(p[p[key]])
-   Then y←right[p[p[key]]
-// If the parent of the new node is Red(if there is Grandparent instead
-root Node) Flip the color.
-   if color[y]← Red
-   then color(p[key])← Black
-      color(p[p[key]])← Red
-      key← p[p[key]]
-   else if key← right[p[key]]
-      then key← p[key]
-      //When parent of new node has the red color and its sibling is NULL
-   LeftRotate(root,key)
-   color(p[key]) ← Black
-   color(p[p[key]]) ← Red
-RotateRight(root,p[p[key]])
-else exchange then left and right elements to make it balance.
-color(root)← Black
+1.//The color of the inserted new node is Red
+2.color[key] <- Red
+3.while(key≠root and color (p[key]=Red))
+4.do if p[key]= left(p[p[key]])
+5.   Then y←right[p[p[key]]
+6.// If the parent of the new node is Red(if there is Grandparent instead
+7.root Node) Flip the color.
+8.   if color[y]← Red
+9.   then color(p[key])← Black
+10.      color(p[p[key]])← Red
+11.      key← p[p[key]]
+12.   else if key← right[p[key]]
+13.      then key← p[key]
+14.      //When parent of new node has the red color and its sibling is NULL
+15.   LeftRotate(root,key)
+16.   color(p[key]) ← Black
+17.   color(p[p[key]]) ← Red
+18.RotateRight(root,p[p[key]])
+19.else exchange then left and right elements to make it balance.
+20.color(root)← Black
 
 
 
