@@ -39,5 +39,7 @@ All leaf nodes are black nodes.
 
 # Rotations in Red Black Trees :
 In rotation operation, the positions of the nodes of a subtree are interchanged. Rotation operation is used for maintaining the properties of a red-black tree when they are violated by other operations such as insertion and deletion.
+![RB_Rotation](https://user-images.githubusercontent.com/112940949/203839934-28c59358-68db-4bc8-a9b6-db8f08648431.jpg)
+
 
 
