@@ -93,6 +93,9 @@ RB-INSERT (T, z)
  15. right [z] ← nil [T]
  16. color [z] ← RED
  17. RB-INSERT-FIXUP (T, z)
+![INsertion](https://user-images.githubusercontent.com/112940949/203843034-65144ed5-9dc9-4423-b2a4-de08be503be7.jpg)
+
+
 
 ## DELETION ALGORITHM:
 RB-DELETE (T, z)
@@ -114,6 +117,9 @@ RB-DELETE (T, z)
  16. if color [y] = BLACK
  17. then RB-delete-FIXUP (T, x)
  18. return y
+![Deletion](https://user-images.githubusercontent.com/112940949/203843054-aa747962-357a-4380-aa91-0d5cc8e68507.jpg)
+
+
 
 # Applications of Red-Black Trees :
 1. To implement finite maps.
