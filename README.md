@@ -138,7 +138,7 @@ RB-DELETE (T, z)
 6. In Linux Kernel.
 
 
-## Some References and ideas for implementation used taken from:
+## Some References and ideas for implementation taken from:
 1. http://www.mbchandak.com/
 2. https://www.geeksforgeeks.org/
 
