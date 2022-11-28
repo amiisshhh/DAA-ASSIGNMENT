@@ -137,3 +137,8 @@ RB-DELETE (T, z)
 5. To implement Java packages: TreeMap and TreeSet.
 6. In Linux Kernel.
 
+
+## Some References and ideas for implementation used taken from:
+http://www.mbchandak.com/
+https://www.geeksforgeeks.org/
+
