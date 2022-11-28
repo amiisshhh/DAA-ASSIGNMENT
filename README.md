@@ -139,6 +139,6 @@ RB-DELETE (T, z)
 
 
 ## Some References and ideas for implementation used taken from:
-http://www.mbchandak.com/
-https://www.geeksforgeeks.org/
+1. http://www.mbchandak.com/
+2. https://www.geeksforgeeks.org/
 
